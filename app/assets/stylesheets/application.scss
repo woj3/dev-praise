@@ -11,3 +11,24 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+.text-box {
+  background: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+}
+
+.text-top {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#reload-button {
+  background: none;
+  border: none;
+  color: blue;
+  &:hover {
+    text-decoration: underline;
+  }
+}
